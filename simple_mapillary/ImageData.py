@@ -152,4 +152,6 @@ class ImageData:
 
     @staticmethod
     def get_detections(raw_data):
+        if 'detections' not in raw_data:
+            return []
         return raw_data['detections']
