@@ -1,5 +1,6 @@
 # simple-mapillary-python-sdk
- Simplified Python library for accessing the Mapillary API.
+ Simplified Python library for accessing the Mapillary API. 
+ For a more complete library, check out the official [mapillary-python-sdk](https://github.com/mapillary/mapillary-python-sdk).
 
 ## Installation
 ```bash
