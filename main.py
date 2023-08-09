@@ -19,5 +19,3 @@ comb_img = cv2.addWeighted(img, 0.6, segmentation_img, 0.4, 0)
 cv2.imshow('image', comb_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-cv2.imwrite('doc/img/semantic_img.png', comb_img)
