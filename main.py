@@ -1,4 +1,3 @@
-
 from simple_mapillary import Image, set_access_token
 import cv2
 
