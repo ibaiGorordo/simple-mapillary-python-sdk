@@ -7,7 +7,7 @@
 pip install simple-mapillary
 ```
 
-Or clone the repository and install it manually:
+Or clone the repository and install it manually (If you want to modify the code):
 ```bash
 git clone https://github.com/ibaiGorordo/simple-mapillary-python-sdk
 cd simple-mapillary-python-sdk
