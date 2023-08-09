@@ -1,7 +1,5 @@
-import typing
-
-from .api_utils import METADATA_URL
-from .Client import Client
+from simple_mapillary.api.api_utils import METADATA_URL
+from simple_mapillary.api.Client import Client
 
 class ImageAPI:
 

@@ -1,1 +1,0 @@
-METADATA_URL = "https://graph.mapillary.com"

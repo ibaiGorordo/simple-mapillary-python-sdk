@@ -3,7 +3,7 @@ from simple_mapillary import Image, set_access_token
 import cv2
 
 # TODO: Set the token here
-token = ""
+token = ''
 set_access_token(token)
 
 image_id = "1200479493800436"

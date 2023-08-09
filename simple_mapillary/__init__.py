@@ -1,15 +1,14 @@
-from .Client import Client
-from .Image import Image
+from .image import Image
+
+from simple_mapillary.api import init_client
 
 
 def set_access_token(access_token=""):
+    init_client(access_token)
 
-    if type(access_token) != str:
-        raise Exception("\n\nThe access token must be a string.\n")
+try:
+    set_access_token()
+except:
+    pass
 
-    if len(access_token) == 0:
-        raise Exception("\n\nNo access token was provided. Please pass a token to the set_access_token"
-                        " function or set the token in the __token__.py file. Check the README for more"
-                        " information.\n")
 
-    Client.init_static(access_token)
