@@ -31,7 +31,7 @@ import cv2
 # token = ""
 # simple_mapillary.set_access_token(token)
 
-image_id = "133846669385405"
+image_id = "1200479493800436"
 image = Image(image_id)
 
 img = image.get_cvimage()
@@ -41,4 +41,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-![! Mapillary image example](https://github.com/ibaiGorordo/simple-mapillary-python-sdk/blob/main/doc/img/retrieve_img.jpg)
+![! Mapillary image example](https://github.com/ibaiGorordo/simple-mapillary-python-sdk/blob/main/doc/img/retrieve_img.png)
