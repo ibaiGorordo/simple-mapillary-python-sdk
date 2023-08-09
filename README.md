@@ -20,17 +20,15 @@ First, you need to get an access token. To get one:
 - Then, click 'register application', register a new application (read access is enough),
 - Finally, copy the 'Client Token'
 
-Then, you can either modify the [__token__py file](https://github.com/ibaiGorordo/simple-mapillary-python-sdk/blob/main/simple_mapillary/__token__.py) 
-with your token or pass it as an argument to the `simple_mapillary.set_access_token()` function.
+Then, pass the token as an argument to the `set_access_token()` function.
 
 ## Example (Read image)
 ```python
-from simple_mapillary import Image
+from simple_mapillary import Image, set_access_token
 import cv2
 
-# TODO: You can either set the token here or in the __token__.py file
-# token = ""
-# simple_mapillary.set_access_token(token)
+token = ""
+set_access_token(token)
 
 image_id = "1200479493800436"
 image = Image(image_id)
