@@ -1,9 +1,12 @@
-import simple_mapillary
-from simple_mapillary import Client
+from simple_mapillary import Image,Client
 
-token = ""
-simple_mapillary.set_access_token(token)
+# TODO: You can either set the token here or in the __token__.py file
+# token = ""
+# simple_mapillary.set_access_token(token)
 
-print(Client.get("https://graph.mapillary.com/1933525276802129?fields=id"))
+image_id = "1933525276802129"
+image = Image(image_id)
+
+print(image.image_data.id)
 
 

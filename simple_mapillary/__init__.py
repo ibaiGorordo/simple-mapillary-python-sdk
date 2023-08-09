@@ -1,6 +1,6 @@
 from . import __token__
 from .Client import Client
-
+from .Image import Image
 
 def set_access_token(access_token=""):
     if len(access_token) == 0:
@@ -12,3 +12,5 @@ def set_access_token(access_token=""):
         __token__.token = access_token
 
     Client.init_static(__token__.token)
+
+set_access_token()

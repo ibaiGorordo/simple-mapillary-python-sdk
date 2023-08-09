@@ -1,7 +1,7 @@
 import requests
 
-class Client:
 
+class Client:
     session = None
     access_token = None
 
