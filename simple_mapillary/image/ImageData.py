@@ -136,6 +136,8 @@ class ImageData:
 
     @staticmethod
     def get_mesh(raw_data):
+        if 'mesh' not in raw_data:
+            return {}
         return raw_data['mesh']
 
     @staticmethod

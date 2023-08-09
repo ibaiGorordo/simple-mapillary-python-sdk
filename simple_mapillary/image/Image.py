@@ -2,6 +2,7 @@ from imread_from_url import imread_from_url
 
 from .ImageAPI import ImageAPI
 from .ImageData import ImageData
+from .DetectionData import DetectionData
 
 
 class Image():
@@ -13,3 +14,7 @@ class Image():
 
     def get_cvimage(self):
         return imread_from_url(self.image_data.thumb_original_url)
+
+    def get_detections(self):
+        raw_data = ImageAPI.get_image_detections(self.image_data.id, fields=DetectionData.fields())
+        return [DetectionData(raw_detection) for raw_detection in raw_data]

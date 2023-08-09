@@ -18,7 +18,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name=package_name,
-    version='0.0.3',
+    version='0.0.4',
     license='MIT',
     description='Simplified Python library for accessing the Mapillary API.',
     long_description=long_description,
@@ -32,6 +32,7 @@ setup(
         'opencv-python',
         'imread-from-url',
         'requests',
+        'mapbox-vector-tile',
     ],
     include_package_data=True,
 )
