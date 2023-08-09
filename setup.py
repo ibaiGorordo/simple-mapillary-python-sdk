@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='simple_mapillary',
-    version='0.0.1',
+    version='0.0.3',
     license='MIT',
     description='Simplified Python library for accessing the Mapillary API.',
     long_description=long_description,
