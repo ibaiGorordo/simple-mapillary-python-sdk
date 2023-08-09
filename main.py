@@ -2,7 +2,7 @@
 from simple_mapillary import Image, set_access_token
 import cv2
 
-# TODO: You can either set the token here or in the __token__.py file
+# TODO: Set the token here
 token = ""
 set_access_token(token)
 
