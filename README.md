@@ -41,4 +41,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-![! Mapillary image example](https://github.com/ibaiGorordo/simple-mapillary-python-sdk/blob/main/doc/img/retrieve_img.png)
+![! Mapillary image example](https://github.com/ibaiGorordo/simple-mapillary-python-sdk/blob/main/doc/img/retrieve_img.jpg)
