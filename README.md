@@ -1,4 +1,4 @@
-# simple-mapillary-python-sdk
+# simple-mapillary-python-sdk [![PyPI](https://img.shields.io/pypi/v/simple_mapillary?color=2BAF2B)](https://pypi.org/project/simple_mapillary/)
  Simplified Python library for accessing the Mapillary API. 
  For a more complete library, check out the official [mapillary-python-sdk](https://github.com/mapillary/mapillary-python-sdk).
 
