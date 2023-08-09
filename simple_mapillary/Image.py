@@ -10,3 +10,6 @@ class Image():
     def __init__(self, image_id: str):
         raw_data = ImageAPI.get_image(image_id, fields=ImageData.fields())
         self.image_data = ImageData(raw_data)
+
+    def get_cvimage(self):
+        return imread_from_url(self.image_data.thumb_original_url)
